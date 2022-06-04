@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <h3>McDonald's</h3>
+
+        </div>
+        <div>
+            <span id="closed" on>Closed</span>
+        <input type="checkbox" id="navcheck" onclick="openorclose()">
+            <span id="open">Open</span>
+        </div>
+        
+
+    </div>
+<div id="orders">
+    <div id="items">
+        <input type="checkbox" id="burger" value="burger">
+        <input type="checkbox" id="fries" value="fries">
+        <input type="checkbox" id="Chickenbucket" value="Chicken Bucket">
+        <button id="ordernow" onclick="orderFood()">
+            Order Food
+        </button>
+    </div>
+    <div id="afterorder">
+
+    </div>
+  
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>

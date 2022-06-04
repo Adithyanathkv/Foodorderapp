@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* css for navbar */
+#navbar{
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+background-color: #ffe000;
+font-size: 20px;
+}
+#navbar div:last-child{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+#navcheck{
+    margin: 0;
+    background-color: #000;
+    color: #ffe000;
+
+}
+#navbar span{
+    margin: 0px 10px;
+}
+
+#orders{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 10px;
+}
+#items{
+    position: relative;
+    /* border: 1px solid rgba(255, 238, 0, 0.609); */
+    box-shadow: 0px 0px 10px rgba(255, 230, 7, 0.746);
+    flex-basis: 30%;
+
+}
+input{
+    display: block;
+    width: 30px;
+    height: 50px;
+    /* margin-top: 10px; */
+    margin-left: 170px;
+}
+#burger::before{
+    content: "Burger";  
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    font-size: 20px;
+}
+#fries::before{
+    content: "Fries";
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    font-size: 20px;
+}
+#Chickenbucket::before{
+    content: "Chicken Bucket";
+    position: absolute;
+    top: 116px;
+    left: 10px;
+    font-size: 20px;
+    /* margin-right: 20px; */
+}
+button{
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: #ffe000;
+    color: black;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+#afterorder{
+    margin-left: 10px;
+/* background-color: #000; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 10px 20px;
+gap: 20px;
+flex-grow: 1;
+/* height: 100px; */
+box-shadow: 0px 0px 10px rgba(255, 230, 7, 0.746);
+}
+#afterorder>div{
+    /* border: 1px solid red; */
+    position: relative;
+    
+}
+
+#servedimage{
+    width: 100%;
+height: 200px;
+border-radius: 10px;
+}
+#afterorder h5{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color:#ffe000 ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+}
+#closedimage{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
