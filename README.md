@@ -1,6 +1,7 @@
 # Foodorderapp
 A basic structure of a food ordering app where you can view the process of ordering food.Where you can purchase food
 only when the shoop is open.
+Deployed link : https://foodorderapp1.netlify.app/
 <br>
 <br>
 <h2>When shop is open</h2>
