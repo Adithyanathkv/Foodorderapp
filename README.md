@@ -3,6 +3,7 @@ A basic structure of a food ordering app where you can view the process of order
 only when the shoop is open.
 
 -If you want to visit the project then just click on the link given below:
+
 [Project Netlify link](https://foodorderapp1.netlify.app/)
 
 <br>
